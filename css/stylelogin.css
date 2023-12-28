@@ -1,0 +1,148 @@
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	
+	background-image: url(../iconos/restaurant.jpg);
+	
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: sans-serif;
+	height: 100vh;
+}
+
+.login {
+	width: 25rem;
+	height: 32rem;
+	background: #491fec;
+	color: #ffffff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 3rem;
+	border-radius: 4rem;
+}
+
+.login .logo-user {
+	width: 8rem;
+	height: 8rem;
+	border-radius: 50%;
+	position: absolute;
+	top: -4.2rem;
+	left: calc(50% - 4.2rem);
+}
+
+
+
+.login h1 {
+	margin: 0;
+	padding: 0 0 2rem;
+	text-align: center;
+	font-size: 2rem;
+}
+
+
+.login label {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+	font-size: 1.2rem;
+}
+
+.login input {
+	width: 100%;
+	margin-bottom: 2rem;
+
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+	border: 0;
+	outline: none;
+	margin: 0.8rem auto;
+	width: 70%;
+	background: none;
+	color: #ffffff;
+	font-size: 1.08rem;
+	display: block;
+	text-align: center;
+	padding: 1rem 0.8rem;
+	border-radius: 2rem;
+	transition: 0.18s;
+	border: 0.1rem solid #3498db;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+	width: 19rem;
+}
+
+.login input[type="submit"] {
+  border: 0;
+	outline: none;
+	margin: 1rem auto;
+	width: 70%;
+	background: none;
+	color: #ffffff;
+	font-size: 1.08rem;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	padding: 1rem 3rem;
+	border-radius: 2rem;
+	transition: 0.18s;
+	border: 0.1rem solid #3498db;
+	cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+	color: #000000;
+	background: #1fec49;
+}
+
+.login a {
+	text-decoration: none;
+	font-size: 0.9rem;
+	line-height: 1.6rem;
+	
+}
+.social {
+text-align: center;
+}
+
+.login a:hover {
+	color: #1fec49;
+}
+
+.login p {
+	text-decoration: none;
+	font-size: 0.83rem;
+	line-height: 1.6rem;
+	text-align: center;
+}
+
+.link {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+.logo-miski {
+	width: 14rem;
+	height: 7rem;
+	position: absolute;
+	top: 0.4rem;
+	left: calc(8%);
+}
+

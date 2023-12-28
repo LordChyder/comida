@@ -1,0 +1,146 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../iconos/restaurant.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: sans-serif;
+	height: 100vh;
+}
+
+.logo-miski {
+	width: 14rem;
+	height: 7rem;
+	position: absolute;
+	top: 0.4rem;
+	left: calc(8%);
+}
+
+.registro {
+	width: 29rem;
+	height: 68rem;
+	background: #491fec;
+	color: #ffffff;
+	top: 80%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 0rem 3rem;
+	border-radius: 5rem;
+}
+
+.registro .logo-registro {
+	width: 8rem;
+	height: 8rem;
+	border-radius: 50%;
+	position: absolute;
+	top: -4.2rem;
+	left: calc(50% - 4.2rem);
+}
+
+.registro .avatar-registro {
+	width: 1.8rem;
+	height: 1.8rem;
+	color: #999999;
+}
+
+.registro label {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+.registro input {
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+.registro input[type="text"],
+.registro input[type="password"] {
+	border: none;
+	font-size: 1.08rem;
+	height: 2.4rem;
+	padding: 0.8rem;
+  background: transparent;
+  color: #ffffff;
+  outline: none;
+  border-bottom: 0.05rem solid #fff;
+}
+
+.registro input[type="email"] {
+	border: none;
+	font-size: 1.08rem;
+  height: 2.4rem;
+	padding: 0.8rem;
+  background: transparent;
+  color: #ffffff;
+  outline: none;
+  border-bottom: 0.05rem solid #fff;
+}
+
+.registro input[type="submit"] {
+	border: 0;
+	outline: none;
+	margin: 1rem auto;
+	width: 80%;
+	background: none;
+	color: #ffffff;
+	font-size: 1.08rem;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	padding: 1rem 3rem;
+	border-radius: 2rem;
+	transition: 0.18s;
+	border: 0.1rem solid #3498db;
+	cursor: pointer;
+}
+
+.registro input[type="submit"]:hover {
+	color: #000000;
+	background: #1fec49;
+}
+
+.registro h1 {
+	margin: 0;
+	padding: 0 0 2rem;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.registro p {
+	text-decoration: none;
+	font-size: 0.83rem;
+	line-height: 1.6rem;
+	text-align: center;
+}
+
+.registro a {
+	text-decoration: none;
+	font-size: 0.9rem;
+	line-height: 1.6rem;
+}
+
+.registro a:hover {
+	color: #1fec49;
+}
+
+.link {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+.text-danger{
+	color: #FF3E3E;
+}
